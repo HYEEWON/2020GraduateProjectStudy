@@ -3,7 +3,9 @@
 - Machine Learning 정리
 - Computer Vision 기말 대비!!
 
-## Regularization (4-1)
+## Network 구성
+
+### Regularization (4-1)
 - Overfitting을 피하기 위해 사용하는 방법<br>
 - Overfitting
   모델이 학습 데이터에 특화되어 테스트 성능이 낮아지는 것, 일반화(generalization) 성능이 감소<br>
@@ -21,6 +23,11 @@
 tf.keras.layers.Dense(64, kernel_regularizer=tf.keras.regularizers.l1(0.01))
 tf.keras.layers.Dense(64, bias_regularizer=tf.keras.regularizers.l2(0.01))
 ```
+
+### Initialization
+
+### Batch Normalization
+
 
 ## Training
 ```bash
