@@ -1,4 +1,4 @@
-# 2020GraduateProjectStudy
+# 2020GraduateProject
 - Python의 Tensorflow 및 Keras 정리
 - Machine Learning 정리
 - Computer Vision 기말 대비!!
